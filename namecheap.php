@@ -123,7 +123,7 @@ class namecheap
 	 * register a domain
 	 * @domain string the domain name to register
 	 * @data array associative array of required registration data
-	 *	http://developer.namecheap.com/docs/doku.php?id=api-reference:domains:create
+	 *	https://www.namecheap.com/support/api/methods/domains/create.aspx
 	 * @return bool success or failure of the registration
 	 */
 	public function domainsCreate( $domain, $data )
@@ -282,7 +282,7 @@ class namecheap
 	 * @type string one of DOMAIN, SSLCERTIFICATE or WHOISGUARD 
 	 * @category string specific category within product type
 	 * @promo string promotional code
-	 * http://developer.namecheap.com/docs/doku.php?id=api-reference:users:getpricing
+	 * https://www.namecheap.com/support/api/methods/users/get-pricing.aspx
 	 * @return mixed
 	 */
 	public function getPricing( $type = 'DOMAIN', $category ='', $promo = '' )
